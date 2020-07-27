@@ -9,8 +9,8 @@ import android.widget.ListView;
 public class MainActivity extends AppCompatActivity {
     ListView simpleList;
 
-    String seekerDetails[] = {"androidDeveloper", "companyName", "location",};
-    int icons[] = {R.drawable.ic_person, R.drawable.ic_location,R.drawable.ic_company,};
+    String seekerDetails[] = {"androidDeveloper", "companyName", "location","androidDeveloper", "companyName", "location",};
+    int icons[] = {R.drawable.ic_person, R.drawable.ic_location,R.drawable.ic_company,R.drawable.ic_person, R.drawable.ic_location,R.drawable.ic_company,};
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

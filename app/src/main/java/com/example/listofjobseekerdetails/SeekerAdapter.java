@@ -1,6 +1,7 @@
 package com.example.listofjobseekerdetails;
 
 import android.content.Context;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -42,7 +43,8 @@ public class SeekerAdapter extends BaseAdapter {
         TextView country = (TextView) view.findViewById(R.id.textView);
         ImageView icon = (ImageView) view.findViewById(R.id.icons);
         country.setText(seekerDetails[i]);
-        icon.setImageResource(icons[i]);
+       // Log.d("list is/", String.valueOf(icons[i]));
+     //  icon.setImageResource(icons[i]);
         return view;
     }
 
